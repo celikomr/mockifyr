@@ -1,0 +1,6 @@
+@Mockifyr.WebApi_HostAddress = http://localhost:5028
+
+GET {{Mockifyr.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
