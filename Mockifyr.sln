@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{82FF152E-E0A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E8CAD3F5-F8A4-42F6-82DB-72822F97981D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mockifyr.WebApi", "src\Mockifyr.WebApi\Mockifyr.WebApi.csproj", "{77EE3C95-7AD5-437C-A7D5-BF8C8AAABB4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mockifyr.WebApi", "src\Mockifyr.WebApi\Mockifyr.WebApi.csproj", "{77EE3C95-7AD5-437C-A7D5-BF8C8AAABB4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mockifyr.Application", "src\Mockifyr.Application\Mockifyr.Application.csproj", "{2D80187D-F734-473B-96D8-3F59ACDA6801}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,12 +23,17 @@ Global
 		{77EE3C95-7AD5-437C-A7D5-BF8C8AAABB4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77EE3C95-7AD5-437C-A7D5-BF8C8AAABB4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77EE3C95-7AD5-437C-A7D5-BF8C8AAABB4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D80187D-F734-473B-96D8-3F59ACDA6801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D80187D-F734-473B-96D8-3F59ACDA6801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D80187D-F734-473B-96D8-3F59ACDA6801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D80187D-F734-473B-96D8-3F59ACDA6801}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{77EE3C95-7AD5-437C-A7D5-BF8C8AAABB4A} = {82FF152E-E0A4-4FFA-BFF3-75A16DEB9AAC}
+		{2D80187D-F734-473B-96D8-3F59ACDA6801} = {82FF152E-E0A4-4FFA-BFF3-75A16DEB9AAC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {99093ECD-B967-47E2-82FA-7FD899BAD153}
