@@ -1,4 +1,4 @@
-namespace WebApi.AcceptanceTests;
+namespace Mockifyr.WebApi.AcceptanceTests;
 
 public class UnitTest1
 {
