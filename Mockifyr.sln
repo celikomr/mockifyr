@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mockifyr.Infrastructure", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mockifyr.WebApi.AcceptanceTests", "tests\Mockifyr.WebApi.AcceptanceTests\Mockifyr.WebApi.AcceptanceTests.csproj", "{7760FD48-047E-474B-B58A-82E9E76226CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mockifyr.Application.FunctionalTests", "tests\Mockifyr.Application.FunctionalTests\Mockifyr.Application.FunctionalTests.csproj", "{BEFEF4DC-0697-41F2-A0A4-98FA53BF7A86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7760FD48-047E-474B-B58A-82E9E76226CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7760FD48-047E-474B-B58A-82E9E76226CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7760FD48-047E-474B-B58A-82E9E76226CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEFEF4DC-0697-41F2-A0A4-98FA53BF7A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEFEF4DC-0697-41F2-A0A4-98FA53BF7A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEFEF4DC-0697-41F2-A0A4-98FA53BF7A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEFEF4DC-0697-41F2-A0A4-98FA53BF7A86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{2D80187D-F734-473B-96D8-3F59ACDA6801} = {82FF152E-E0A4-4FFA-BFF3-75A16DEB9AAC}
 		{FF47B6B9-8350-45F2-9E3F-FAFC803CAAD5} = {82FF152E-E0A4-4FFA-BFF3-75A16DEB9AAC}
 		{7760FD48-047E-474B-B58A-82E9E76226CC} = {E8CAD3F5-F8A4-42F6-82DB-72822F97981D}
+		{BEFEF4DC-0697-41F2-A0A4-98FA53BF7A86} = {E8CAD3F5-F8A4-42F6-82DB-72822F97981D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {99093ECD-B967-47E2-82FA-7FD899BAD153}
