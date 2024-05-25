@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mockifyr.Domain.UnitTests",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mockifyr.Infrastructure.IntegrationTests", "tests\Mockifyr.Infrastructure.IntegrationTests\Mockifyr.Infrastructure.IntegrationTests.csproj", "{F27E0597-D37C-4119-8C6D-1B78579A6C23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mockifyr.Domain", "src\Mockifyr.Domain\Mockifyr.Domain.csproj", "{BD63C32C-74A0-4588-AB61-7914706D912E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{F27E0597-D37C-4119-8C6D-1B78579A6C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F27E0597-D37C-4119-8C6D-1B78579A6C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F27E0597-D37C-4119-8C6D-1B78579A6C23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD63C32C-74A0-4588-AB61-7914706D912E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD63C32C-74A0-4588-AB61-7914706D912E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD63C32C-74A0-4588-AB61-7914706D912E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD63C32C-74A0-4588-AB61-7914706D912E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +82,7 @@ Global
 		{D3BE8319-D559-4520-9D17-DDB54CA083E5} = {E8CAD3F5-F8A4-42F6-82DB-72822F97981D}
 		{D35AEAED-6386-4EA2-8D9A-E78C2FB49236} = {E8CAD3F5-F8A4-42F6-82DB-72822F97981D}
 		{F27E0597-D37C-4119-8C6D-1B78579A6C23} = {E8CAD3F5-F8A4-42F6-82DB-72822F97981D}
+		{BD63C32C-74A0-4588-AB61-7914706D912E} = {82FF152E-E0A4-4FFA-BFF3-75A16DEB9AAC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {99093ECD-B967-47E2-82FA-7FD899BAD153}

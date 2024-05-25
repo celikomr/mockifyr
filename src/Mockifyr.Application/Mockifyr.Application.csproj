@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Mockifyr.Domain\Mockifyr.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
